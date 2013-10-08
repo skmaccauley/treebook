@@ -9,7 +9,7 @@
 <% @statuses.each do |status| %>
 <div class="status">
   <!--   This adds the name of the individual with a status -->
-  <strong><%= status.name %></strong>
+  <strong><%= status.user.full_name %></strong>
   <p><%= status.content %></p>
   <div class="meta">
   <!-- Add link to the status page -->
